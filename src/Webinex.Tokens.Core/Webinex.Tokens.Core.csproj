@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="$(MSBuildThisFileDirectory)/../Webinex.Tokens.All/Package.props" />
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <PackageId>Webinex.Tokens.Core</PackageId>
+        <RootNamespace>Webinex.Tokens</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Scriban" Version="4.0.2" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+      <PackageReference Include="Webinex.Temply.Abstractions" Version="0.0.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Webinex.Tokens.Abstractions\Webinex.Tokens.Abstractions.csproj" />
+    </ItemGroup>
+
+</Project>

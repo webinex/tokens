@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="$(MSBuildThisFileDirectory)/../Webinex.Tokens.All/Package.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <PackageId>Webinex.Tokens.Emails</PackageId>
+    <RootNamespace>Webinex.Tokens.Emails</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Webinex.Tokens.Core\Webinex.Tokens.Core.csproj" />
+    <ProjectReference Include="..\Webinex.Tokens.Emails.Abstractions\Webinex.Tokens.Emails.Abstractions.csproj" />
+  </ItemGroup>
+</Project>

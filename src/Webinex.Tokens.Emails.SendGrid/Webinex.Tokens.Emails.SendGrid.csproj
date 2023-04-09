@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <Import Project="$(MSBuildThisFileDirectory)/../Webinex.Tokens.All/Package.props" />
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <PackageId>Webinex.Tokens.Emails.SendGrid</PackageId>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Webinex.Tokens.Core\Webinex.Tokens.Core.csproj" />
+      <ProjectReference Include="..\Webinex.Tokens.Emails\Webinex.Tokens.Emails.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="SendGrid" Version="9.24.3" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+    </ItemGroup>
+
+</Project>
