@@ -19,6 +19,7 @@ namespace Webinex.Tokens
             Expired = expired;
             WrongKind = wrongKind;
             UserId = userId;
+            Payload = payload;
             Token = token ?? throw new ArgumentNullException(nameof(token));
         }
 

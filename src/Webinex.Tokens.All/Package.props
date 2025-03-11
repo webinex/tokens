@@ -1,7 +1,7 @@
 ﻿<Project>
     <PropertyGroup>
         <Title>Webinex Tokens</Title>
-        <PackageVersion>0.0.2</PackageVersion>
+        <PackageVersion>0.0.3</PackageVersion>
         <Authors>Webinex Dev</Authors>
         <NoWarn>$(NoWarn);CS1591</NoWarn>
         <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
@@ -9,9 +9,9 @@
         <Nullable>disable</Nullable>
         <Description>Easy to use tokens services</Description>
         <Copyright>Webinex Dev</Copyright>
-        <PackageProjectUrl>https://github.com/webinex/starter-kit</PackageProjectUrl>
-        <License>https://github.com/webinex/starter-kit/LICENSE</License>
-        <RepositoryUrl>https://github.com/webinex/starter-kit</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/webinex/tokens</PackageProjectUrl>
+        <License>https://github.com/webinex/tokens/LICENSE</License>
+        <RepositoryUrl>https://github.com/webinex/tokens</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
     </PropertyGroup>
 </Project>
